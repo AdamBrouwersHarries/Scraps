@@ -1,0 +1,10 @@
+[custom.all.sorting]
+type = "local"
+path = "."
+ipkg = "sorting.ipkg"
+test = "test/test.ipkg"
+
+[custom.all.sorting-test]
+type = "local"
+path = "test"
+ipkg = "test.ipkg"

@@ -1,0 +1,8 @@
+export CFLAGS="-I/opt/homebrew/include -I$(pwd)/library/ -O3 -g"
+export LDFLAGS="-L$(pwd)/library/ -L/opt/homebrew/lib"
+export LDLIBS="-lexternalc"
+export LD_LIBRARY_PATH="$(pwd)/library/"
+
+~/.idris2-custom/bin/idris2 --cg refc -o cffi Main.idr
+
+./build/exec/cffi
