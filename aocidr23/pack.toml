@@ -1,0 +1,10 @@
+[custom.all.aocidr2]
+type = "local"
+path = "."
+ipkg = "aocidr2.ipkg"
+test = "test/test.ipkg"
+
+[custom.all.aocidr2-test]
+type = "local"
+path = "test"
+ipkg = "test.ipkg"
